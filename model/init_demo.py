@@ -41,3 +41,4 @@ sim.gatherData()                  			# gather spiking data and cell info from ea
 sim.saveData()  
 
 sim.analysis.plotData()         			# plot spike raster etc
+sim.analysis.plotShape(showSyns=True, dist=0.8, saveFig=True, axisLabels=True)
